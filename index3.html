@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1">
+  <title>Esqueleto de WEB APP</title>
+  <link rel="stylesheet"
+  href="c/jquery.mobile-min.css"/>
+  <script src="j/jquery-min.js"></script>
+  <script src="j/jquery.mobile-min.js"></script>
+</head>
+<body>
+  <!-- Single Page Application Spa -->
+  <!-- JQM-->
+  <div data-role="page" id="pag1">
+    <div data-role="header">
+      <h1>Lista Simple</h1>
+    </div>
+    <div data="main" class="ui-content">
+        <ul data-role="listview" data-inset="true">
+          <h1>Curriculum vitae</h1>
+          <li>
+            <a href>Datos Generales</a>
+          </li>
+          <li>
+            <a href>Experiencia Laboral</a>
+          </li>
+          <li>
+            <a href>Educación</a>
+          </li>
+          <li>
+            <a href>Otros Interéses</a>
+          </li>
+        </ul>
+      </div>
+      <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a href="#pag1">Simple</a>
+            </li>
+            <li>
+              <a href="#pag2">Imagen</a>
+            </li>
+          </ul>
+      </div>
+      </div>
+    </div>
+
+    <div data-role="page" id="pag2">
+      <div data-role="header">
+        <h1>Lista Simple 2</h1>
+      </div>
+      <div data="main" class="ui-content" data-position="fixed">
+        <ul data-role="listview" data-filter="true" data-filter-placeholder="Buscar Alumno"
+        data-autodividers="true">
+          <li>
+          <a href>Alejandra<span class="ui-li-count">45</span></a>
+          </li>
+          <li>
+            <a href>Alejandro</a>
+          </li>
+          <li>
+            <a href>Alex</a>
+          </li>
+          <li>
+            <a href>Armando</a>
+          </li>
+          <li>
+            <a href>David</a>
+          </li>
+          <li>
+            <a href>Fredy</a>
+          </li>
+          <li>
+            <a href>Manuel</a>
+          </li>
+          <li>
+            <a href>Ramon</a>
+          </li>
+        </ul>
+      </div>
+      <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a href="#pag1">Simple</a>
+            </li>
+            <li>
+              <a href="#pag2">Imágen</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </body>
+    </html>
